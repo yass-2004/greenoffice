@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:#d6d2ca;
+        }
+        .global-container {
+            background-color: white;
+            width: 50vw;
+            margin: 0 auto;
+        }
+
+        .container{
+            width: 50vw;
+            height: 20vh;
+            background-color: #b8cb21;
+            margin: 0 auto;
+        }
+        .container-text{
+            width: 50vw;
+            height: 120vh;
+            background-color: white;
+            margin: 0 auto;
+        }
+            
+        .container-para{
+            width: 600px;
+            height: 100px;
+            background-color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .aligner-titre{
+            display: flex;
+            justify-content: end;
+
+        }
+        .titre{
+            font-weight: bold;
+            text-decoration: underline;
+            width: 100px;
+            height: 10px;
+            padding: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-decoration: #314723 underline;
+        }
+        .titre a {
+            color:#314723;
+        }
+       
+        .aligner-icone{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            align-items: center;
+
+        }
+        .image{
+            float: left;
+        }
+        .btn-container{
+            text-align: right;
+            margin-right: 20px;
+            padding: 30px;
+    
+        }
+        .marg{
+            width: 200px;
+            margin-top: 50px;
+        }
+        .footer-image{
+            width: 70vw;
+            height: 10vh;
+            margin: 0 auto;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .btn-color{
+            background-color: #b8cb21;
+            padding: 10px;
+        }
+        .title-section{
+            margin-top: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="global-container">
+        <header class="container aligner-icone">
+            <div class="aligner-titre">
+                <div class="titre"><a href="">LOCATION</a></div>
+                <div class="titre"><a href="">ABOUT US</a></div>
+                <div class="titre"><a href="">CONTACT</a></div>
+            </div>
+            <div>
+                <img src="logo.png" alt="LOGO" height="80px"/>
+            </div>
+            </header>
+        <section class="container-text">
+            <div class="title-section">WHO WE ARE</div>
+            <div><img class="image" src="img1.jpg" alt image-1 style="width: 150px;height:100;margin-top: 20px;margin-left: 10px;"/></div>
+            <p class="container-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus repudiandae exercitationem beatae, consequuntur est eveniet quae, similique molestiae harum quas perspiciatis iusto quod.
+    
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima reiciendis laboriosam vitae quo labore, distinctio, excepturi eligendi voluptates atque iure, consequuntur repudiandae! Sequi praesentium suscipit iste perspiciatis, quasi reiciendis a nesciunt fugit eligendi culpa quidem sit neque necessitatibus quod maiores tenetur aut harum?</p>
+            
+            <div class="btn-container"><button class="btn-color">read more</button></div>
+    
+            <div class="title-section">WHAT WE DO</div>
+            <div><img class="image" src="img2.jpg" alt image-2 style="width: 150px;height:100;margin-top: 20px;margin-left: 10px;"/></div>
+            <p class="container-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus repudiandae exercitationem beatae, consequuntur est eveniet quae, similique molestiae harum quas perspiciatis iusto quod.
+    
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. In saepe voluptate soluta cum eligendi a nobis praesentium debitis eaque, esse dolor! Eveniet, incidunt.
+                
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eligendi, quasi voluptates quod, maxime alias amet minima minus nisi necessitatibus dolorem. Fuga, architecto!</p>
+                <div>
+                    <ul>
+                        <li class="marg">Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>  
+                
+                
+                
+                <div class="btn-container"><button class="btn-color">read more</button></div>
+        </section>
+    </div>
+    <footer>
+       <div class="footer-image"><img src="img3.jpg" alt image-3 style="width: 60px;height:60px;"/></div> 
+       <div class="footer-image"> 
+        <h5>Cet exercice de <a href="">3W Academy</a> est mis à disposition <a href="">pour l'usgae personnel des étudiants,pas de Rediffusion-Attribution-Pas d'utilisation Commerciale-Pas de Modification-Internationale.</a></a></br>
+            Les autorisations au-delà du champ de cette licence peuvent être obtenus auprès de <a href="">contact@3wa.fr.</a> Les maquettes ont été réalisées par<a href=""">Justine Muler.</a>
+        
+        </h5>
+       </div>
+    </footer>
+</body>
+</html>
